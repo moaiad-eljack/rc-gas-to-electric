@@ -11,9 +11,9 @@ We're four first year engineering students at Columbia Basin College in Pasco, W
 | Name | Major | GitHub |
 |---|---|---|
 | Moaiad Eljack | Electrical Engineering | [@moaiad-eljack](https://github.com/moaiad-eljack) |
-| Lily | Electrical Engineering | coming soon |
 | Miguel | Mechanical Engineering | coming soon |
-| Ayzln | Mechanical Engineering | coming soon |
+| Ayzlyn | Mechanical Engineering | coming soon |
+| Lily | Electrical Engineering | coming soon |
 
 The split works out pretty naturally. The EE side handles the motor, ESC, battery and wiring. The ME side handles mounting, gearing and everything that has to physically fit in the chassis.
 
