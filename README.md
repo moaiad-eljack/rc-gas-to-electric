@@ -2,7 +2,7 @@
 
 We're taking a nitro (gas) RC car and converting it to run electric. The engine comes out, a brushless motor, ESC and LiPo battery go in.
 
-We're four first year engineering students, two electrical and two mechanical. This repo is our engineering notebook for the project. We write it as we learn, so if something in here is wrong, it's because we were wrong at the time, and we'll fix it once we figure it out.
+We're four first year engineering students at Columbia Basin College in Pasco, WA, two electrical and two mechanical. This repo is our engineering notebook for the project. We write it as we learn, so if something in here is wrong, it's because we were wrong at the time, and we'll fix it once we figure it out.
 
 ![Where we're at](images/roadmap.png)
 
@@ -40,6 +40,7 @@ phase-0-pre-project/   theory notes before we touch the car
   images/              our sketches
 images/                repo level images (roadmap)
 photos/                real photos of the team and the car
+photo-credits.md       where the part photos come from
 ```
 
 ## How we work
@@ -47,6 +48,7 @@ photos/                real photos of the team and the car
 - Notes go in after every meeting, not weeks later.
 - We don't write ahead. The next meeting gets one line in the notes and that's it.
 - If something we wrote turns out wrong, we fix it and say what changed in the commit.
+- Part photos we didn't take ourselves come from Wikimedia Commons and get credited right under the photo. Full list in [photo-credits.md](photo-credits.md).
 
 ## Safety
 
