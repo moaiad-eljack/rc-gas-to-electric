@@ -14,6 +14,20 @@ The battery sends power to the motor, and the motor spins the gears that drive t
 | Wear | Brushes wear out over time | Almost nothing to wear out |
 | Cost | Cheaper | More expensive |
 
+### What they look like
+
+![Mabuchi RS-540SH brushed motor](https://upload.wikimedia.org/wikipedia/commons/5/51/RS540SH.jpg)
+
+*A Mabuchi RS-540SH, the classic brushed 540 motor that comes in a lot of 1/10 kits. Two wires. Photo: [Shingo.a](https://commons.wikimedia.org/wiki/File:RS540SH.jpg), CC BY-SA 4.0, via Wikimedia Commons.*
+
+![Brushed motor taken apart](https://upload.wikimedia.org/wikipedia/commons/0/0d/Brushed_dc_motor_assembly.jpg)
+
+*Inside a small brushed motor: the can with the magnets, the spinning armature, and the brushes that rub on the commutator. Those brushes are what wear out. Photo: [Ilia Krivoruk](https://commons.wikimedia.org/wiki/File:Brushed_dc_motor_assembly.jpg), CC BY-SA 3.0, via Wikimedia Commons.*
+
+![Brushless motor stator coils](https://upload.wikimedia.org/wikipedia/commons/0/0f/Stator_Winding_of_a_BLDC_Motor.jpg)
+
+*Inside a brushless motor: the copper coils stay still and the ESC switches them on in order. This one is from a small fan motor, but RC motors work the same way. Photo: [Medvedev](https://commons.wikimedia.org/wiki/File:Stator_Winding_of_a_BLDC_Motor.jpg), CC BY-SA 3.0, via Wikimedia Commons.*
+
 **Our pick: brushless.** For a conversion where we want real power out of the car, it's the obvious choice.
 
 ## What the motor numbers mean

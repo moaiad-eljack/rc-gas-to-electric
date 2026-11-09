@@ -21,6 +21,12 @@ How the battery, ESC, motor and receiver all connect. The ESC is the power hub: 
 
 When done, unplug the battery first, then turn off the transmitter. That way the car never has power without a signal telling it what to do.
 
+## Why we take our time
+
+![Burnt ESC with a damaged MOSFET](https://upload.wikimedia.org/wikipedia/commons/6/6a/Fried_ESC.jpg)
+
+*What a cooked ESC looks like: a burnt MOSFET and a swollen capacitor. This one (a drone ESC) died from bad soldering. Wrong polarity or a sloppy joint and ours could look like this too. Photo: [TruenoCity](https://commons.wikimedia.org/wiki/File:Fried_ESC.jpg), CC BY 4.0, via Wikimedia Commons.*
+
 ## Troubleshooting
 
 | Problem | Check |

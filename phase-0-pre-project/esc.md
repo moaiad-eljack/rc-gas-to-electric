@@ -2,6 +2,12 @@
 
 The ESC sits between the battery and the motor. Think of it as the throttle and the brakes in one box. It reads the signal from the receiver and decides how much battery power actually reaches the motor.
 
+## What one looks like
+
+![Tamiya TBLE-03S brushless ESC](https://upload.wikimedia.org/wikipedia/commons/3/32/TBLE-03S.jpg)
+
+*A Tamiya TBLE-03S, a brushless ESC made for 1/10 cars. Thick wires for the battery and motor, a thin lead for the receiver, and a power switch. Photo: [Shingo.a](https://commons.wikimedia.org/wiki/File:TBLE-03S.jpg), CC BY-SA 4.0, via Wikimedia Commons.*
+
 ## What we need to know
 
 - **Match the type.** Brushless motor needs a brushless ESC.

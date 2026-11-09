@@ -12,6 +12,16 @@ Meeting 1 was motors. Meeting 2 was ESC basics. After that we went through the w
 
 The battery stores the energy, the ESC decides how much of it reaches the motor, and the motor spins the gears that drive the wheels. The receiver takes the signal from our transmitter and tells the ESC what to do. That's the whole electric drivetrain.
 
+Here's what those parts look like for real:
+
+![Electric RC car system laid out](https://upload.wikimedia.org/wikipedia/commons/9/9c/RC_System_for_car%28Brushless%29.jpg)
+
+*A full electric RC car system: (1) transmitter, (2) receiver, (3) steering servo, (4) battery, (5) ESC, (6) brushless motor. Photo: [Shingo.a](https://commons.wikimedia.org/wiki/File:RC_System_for_car(Brushless).jpg), CC0, via Wikimedia Commons.*
+
+![Electric RC drift chassis with parts labeled](https://upload.wikimedia.org/wikipedia/commons/6/60/Chassis_RC_Drift_-_R%C3%A9partition_des_%C3%A9lements.jpg)
+
+*Same parts packed into a real chassis (a Yokomo drift car). Labels are in French: moteur = motor, variateur = ESC, batterie = battery, récepteur = receiver. Photo: [Espelir](https://commons.wikimedia.org/wiki/File:Chassis_RC_Drift_-_R%C3%A9partition_des_%C3%A9lements.jpg), CC BY-SA 4.0, via Wikimedia Commons.*
+
 ## Notes
 
 | Topic | What's in it |
