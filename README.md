@@ -15,7 +15,7 @@ We're four first year engineering students at Columbia Basin College in Pasco, W
 | Ayzlyn | Mechanical Engineering | coming soon |
 | Lily | Electrical Engineering | coming soon |
 
-The split works out pretty naturally. The EE side handles the motor, ESC, battery and wiring. The ME side handles mounting, gearing and everything that has to physically fit in the chassis.
+All four of us work on every part of this together. Nobody owns one piece of the car, so the EE and ME sides end up learning from each other the whole way.
 
 ## Phases
 
@@ -53,3 +53,7 @@ photo-credits.md       where the part photos come from
 ## Safety
 
 LiPo batteries can catch fire if they're overcharged, over drained or damaged. Before anyone charges or plugs anything in, read [lipo-batteries.md](phase-0-pre-project/lipo-batteries.md).
+
+## Credits
+
+Built by Moaiad Eljack, Miguel, Ayzlyn and Lily at Columbia Basin College, Pasco, WA. Part photos are from Wikimedia Commons, full list in [photo-credits.md](photo-credits.md).
