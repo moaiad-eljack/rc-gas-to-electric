@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Armature | Four first year engineers converting a gas RC car to electric</title>
+<meta name="description" content="Armature is four first year engineering students at Columbia Basin College converting a nitro RC car to electric, and writing down everything we learn, including what we got wrong.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Armature: gas RC car to electric">
+<meta property="og:description" content="Two electrical, two mechanical, one nitro RC car. Our public engineering notebook.">
+<meta property="og:image" content="https://moaiad-eljack.github.io/rc-gas-to-electric/img/og.jpg">
+<meta property="og:url" content="https://moaiad-eljack.github.io/rc-gas-to-electric/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#E9E8E4">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the work</a>
+
+<header class="nav glass" data-glass="12">
+  <a class="nav__name" href="#top" aria-label="Armature, back to top">Armature</a>
+  <nav aria-label="Sections">
+    <a href="#project">Project</a>
+    <a href="#process">Process</a>
+    <a href="#mistakes">Mistakes</a>
+    <a href="#team">Team</a>
+  </nav>
+  <a class="nav__gh" href="https://github.com/moaiad-eljack/rc-gas-to-electric">GitHub</a>
+</header>
+
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="hero__meta mono">
+    <span>Columbia Basin College<br>Pasco, Washington</span>
+    <span class="r">First year engineering team<br>2 electrical, 2 mechanical</span>
+  </div>
+
+  <div class="hero__stage">
+    <h1 class="word">Armature</h1>
+
+    <svg class="rig" viewBox="0 0 1200 470" role="img" aria-labelledby="rigt">
+      <title id="rigt">Line drawing of an electric RC car from above, showing where the battery, ESC, motor, receiver and servo sit</title>
+      <g class="draw" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path pathLength="1" style="--d:0" d="M210 170H420L450 150H830L860 170H990Q1010 170 1010 190V270Q1010 290 990 290H860L830 310H450L420 290H210Q190 290 190 270V190Q190 170 210 170Z"/>
+        <rect pathLength="1" style="--d:.15" x="150" y="40" width="150" height="74" rx="14"/>
+        <rect pathLength="1" style="--d:.2" x="150" y="346" width="150" height="74" rx="14"/>
+        <rect pathLength="1" style="--d:.25" x="900" y="40" width="150" height="74" rx="14"/>
+        <rect pathLength="1" style="--d:.3" x="900" y="346" width="150" height="74" rx="14"/>
+        <path pathLength="1" style="--d:.35" d="M205 114L214 170M245 114L236 170M205 346L214 290M245 346L236 290M955 114L964 170M995 114L986 170M955 346L964 290M995 346L986 290"/>
+        <path pathLength="1" style="--d:.4" d="M150 150Q122 230 150 310"/>
+        <path pathLength="1" style="--d:.45" stroke-width="1.6" d="M240 230H960"/>
+        <rect pathLength="1" style="--d:.5" x="210" y="214" width="30" height="32" rx="3"/>
+        <rect pathLength="1" style="--d:.5" x="960" y="214" width="30" height="32" rx="3"/>
+        <rect pathLength="1" style="--d:.55" x="440" y="176" width="260" height="46" rx="6"/>
+        <path pathLength="1" style="--d:.6" stroke-width="1.4" d="M527 176V222M613 176V222"/>
+        <rect pathLength="1" style="--d:.65" x="250" y="240" width="84" height="44" rx="4"/>
+        <circle pathLength="1" style="--d:.7" cx="272" cy="262" r="8"/>
+        <path pathLength="1" style="--d:.7" d="M272 262L246 300"/>
+        <rect pathLength="1" style="--d:.75" x="600" y="246" width="64" height="36" rx="4"/>
+        <rect pathLength="1" style="--d:.8" x="690" y="242" width="70" height="42" rx="4"/>
+        <path pathLength="1" style="--d:.85" stroke-width="1.4" d="M702 250V276M713 250V276M724 250V276M735 250V276M746 250V276"/>
+        <rect pathLength="1" style="--d:.9" x="776" y="244" width="80" height="40" rx="8"/>
+        <path pathLength="1" style="--d:.95" stroke-width="1.4" d="M792 244V284M856 264H872"/>
+        <rect pathLength="1" style="--d:1" x="872" y="252" width="16" height="22" rx="2"/>
+        <rect pathLength="1" style="--d:1" x="872" y="204" width="16" height="46" rx="2"/>
+        <path pathLength="1" style="--d:1.05" stroke-width="1.6" d="M700 199C730 199 725 222 725 242M760 254H776M760 263H776M760 272H776M690 264H664M600 264H334"/>
+      </g>
+      <g class="tread" stroke="#fff" stroke-width="1" opacity=".55">
+        <path d="M172 40V114M194 40V114M216 40V114M238 40V114M260 40V114M282 40V114M172 346V420M194 346V420M216 346V420M238 346V420M260 346V420M282 346V420M922 40V114M944 40V114M966 40V114M988 40V114M1010 40V114M1032 40V114M922 346V420M944 346V420M966 346V420M988 346V420M1010 346V420M1032 346V420"/>
+      </g>
+      <g class="callouts" stroke="#fff" stroke-width="1" fill="none">
+        <path d="M570 176V128H582"/>
+        <path d="M292 240V136H304"/>
+        <path d="M632 282V352H644"/>
+        <path d="M725 284V384H737"/>
+        <path d="M816 284V352H828"/>
+        <path d="M225 448H975M225 440V456M975 440V456"/>
+      </g>
+      <g class="labels" fill="#fff" stroke="none">
+        <text x="588" y="132">BATTERY</text>
+        <text x="310" y="140">SERVO</text>
+        <text x="650" y="356">RECEIVER</text>
+        <text x="743" y="388">ESC</text>
+        <text x="834" y="356">MOTOR</text>
+        <text x="488" y="466">WHEELBASE, NOT TO SCALE</text>
+      </g>
+    </svg>
+
+    <aside class="status glass" data-glass="20" aria-label="Project status">
+      <p class="mono status__k">Status, Nov 2026</p>
+      <p class="status__v"><span class="dot" aria-hidden="true"></span>Phase 0 done</p>
+      <p class="status__s">Theory and notes are finished. The gas car teardown is next.</p>
+    </aside>
+  </div>
+
+  <div class="hero__foot">
+    <p class="lead">We are four first year engineers pulling the nitro engine out of an RC car and making it run electric. This is our notebook, mistakes included.</p>
+    <div class="cta">
+      <a class="btn" href="#process">See what we did</a>
+      <a class="btn btn--line" href="https://github.com/moaiad-eljack/rc-gas-to-electric">Open the notebook</a>
+    </div>
+  </div>
+  <p class="fig mono">Fig. 1. Where the electric parts go. A generic layout, not our car yet.</p>
+</section>
+
+<section class="def reveal" aria-label="About the name">
+  <p class="def__w"><span class="def__h">ar·ma·ture</span> <span class="mono">noun</span></p>
+  <p class="def__t">The part of a motor where electric current turns into motion. Two of us study electrical engineering and two study mechanical, so the name fit.</p>
+</section>
+
+<section class="sec" id="project">
+  <header class="sec__h reveal">
+    <span class="mono num">01</span>
+    <h2>The project</h2>
+  </header>
+  <div class="project">
+    <p class="big reveal">A nitro RC car runs on a tiny gas engine. We are taking that engine out and putting in a brushless motor, an ESC and a LiPo battery.</p>
+    <div class="project__side reveal">
+      <p>Before touching the car we wanted to understand the electric side for real. So the first phase was all theory: what each part does, how they connect, and what kills them.</p>
+      <p>All four of us work on every part together. Nobody owns one piece of the car, so the electrical and mechanical sides end up learning from each other the whole way.</p>
+    </div>
+  </div>
+
+  <ol class="phases reveal" aria-label="Project phases">
+    <li class="is-done"><span class="mono">Phase 0</span><strong>Pre project</strong><em>Done</em></li>
+    <li class="is-next"><span class="mono">Phase 1</span><strong>Gas car teardown</strong><em>Next</em></li>
+    <li><span class="mono">Phase 2</span><strong>Parts planning</strong><em>Not started</em></li>
+    <li><span class="mono">Phase 3</span><strong>The conversion</strong><em>Not started</em></li>
+    <li><span class="mono">Phase 4</span><strong>Testing and tuning</strong><em>Not started</em></li>
+  </ol>
+  <p class="note mono reveal">We only mark a phase done when it is. Everything past Phase 0 is still ahead of us.</p>
+</section>
+
+<section class="sec" id="process">
+  <header class="sec__h reveal">
+    <span class="mono num">02</span>
+    <h2>What we did, step by step</h2>
+  </header>
+
+  <article class="step reveal">
+    <div class="step__t">
+      <span class="mono step__n">Step 1</span>
+      <h3>Motors</h3>
+      <p>Our first meeting. We kept it basic on purpose. We didn't want to memorize part numbers, we wanted to know why a motor spins at all and what really changes between brushed and brushless.</p>
+      <ul>
+        <li>We are going brushless. More power, runs cooler, almost nothing wears out.</li>
+        <li>kV times voltage sets how fast the motor wants to spin, so motor and battery get picked as a pair.</li>
+      </ul>
+      <a class="more" href="https://github.com/moaiad-eljack/rc-gas-to-electric/blob/main/phase-0-pre-project/motors.md">Read the motor notes</a>
+    </div>
+    <figure class="step__f">
+      <img src="img/motors.jpg" width="1400" height="924" loading="lazy" decoding="async" alt="Chalk diagram comparing a brushed motor, with carbon brushes and two wires, to a brushless motor, with fixed coils, a spinning magnet and three wires">
+      <figcaption class="glass" data-glass="14">Brushed vs brushless</figcaption>
+    </figure>
+  </article>
+
+  <article class="step step--flip reveal">
+    <div class="step__t">
+      <span class="mono step__n">Step 2</span>
+      <h3>The ESC</h3>
+      <p>Second meeting. Once the motor made sense, the next question was what tells it how fast to go. That's the ESC, the box between the battery and the motor.</p>
+      <ul>
+        <li>The ESC decides how much of the battery actually reaches the motor.</li>
+        <li>Its built in BEC also powers the receiver and the steering servo, so we don't need a second battery.</li>
+      </ul>
+      <a class="more" href="https://github.com/moaiad-eljack/rc-gas-to-electric/blob/main/phase-0-pre-project/esc.md">Read the ESC notes</a>
+    </div>
+    <figure class="step__f">
+      <img src="img/power.jpg" width="1400" height="896" loading="lazy" decoding="async" alt="Chalk diagram of power moving from the LiPo battery to the ESC, then the motor, gears and wheels, with the receiver and servo underneath">
+      <figcaption class="glass" data-glass="14">How power moves</figcaption>
+    </figure>
+  </article>
+
+  <article class="step reveal">
+    <div class="step__t">
+      <span class="mono step__n">Step 3</span>
+      <h3>Wiring</h3>
+      <p>After the ESC we looked up how everything plugs together. We saved a few diagrams we found online, then sketched our own version so we understood it and weren't just copying one.</p>
+      <ul>
+        <li>Polarity is not optional. Red to red, black to black. Backwards kills the ESC on the spot.</li>
+        <li>The battery goes in last and comes out first.</li>
+      </ul>
+      <a class="more" href="https://github.com/moaiad-eljack/rc-gas-to-electric/blob/main/phase-0-pre-project/wiring.md">Read the wiring notes</a>
+    </div>
+    <figure class="step__f">
+      <img src="img/wiring.jpg" width="1400" height="1036" loading="lazy" decoding="async" alt="Chalk wiring diagram: 3S LiPo through an XT60 plug into the ESC, three wires to the motor, a small lead to the receiver, and the plug in order">
+      <figcaption class="glass" data-glass="14">Wiring it up</figcaption>
+    </figure>
+  </article>
+
+  <article class="step step--flip reveal">
+    <div class="step__t">
+      <span class="mono step__n">Step 4</span>
+      <h3>Batteries</h3>
+      <p>The LiPo is the one part of this car that can actually hurt somebody. So we turned the rules into a cheat sheet we can look at before anyone charges anything.</p>
+      <ul>
+        <li>Never below 3.0 V per cell, never above 4.2 V.</li>
+        <li>Balance charger only, in a LiPo bag, and never left alone.</li>
+      </ul>
+      <a class="more" href="https://github.com/moaiad-eljack/rc-gas-to-electric/blob/main/phase-0-pre-project/lipo-batteries.md">Read the battery notes</a>
+    </div>
+    <figure class="step__f">
+      <img src="img/lipo.jpg" width="1400" height="798" loading="lazy" decoding="async" alt="Chalk cheat sheet of LiPo cell voltage: dead below 3.0 volts, stop and charge up to 3.5, good to run up to 4.2, with storage at 3.8">
+      <figcaption class="glass" data-glass="14">LiPo cheat sheet</figcaption>
+    </figure>
+  </article>
+
+  <article class="step reveal">
+    <div class="step__t">
+      <span class="mono step__n">Step 5</span>
+      <h3>Writing it down</h3>
+      <p>Then we set up a GitHub repo and a shared doc, went back through our notes, and fixed the parts we had wrong. Notes now go in after every meeting, not weeks later.</p>
+      <ul>
+        <li>Every phase gets its own folder: what we did, what we learned, what it leads to.</li>
+        <li>We don't write ahead. The next meeting gets one line and that's it.</li>
+      </ul>
+      <a class="more" href="https://github.com/moaiad-eljack/rc-gas-to-electric">Open the repo</a>
+    </div>
+    <figure class="step__f">
+      <img src="img/roadmap.jpg" width="1400" height="532" loading="lazy" decoding="async" alt="Chalk roadmap with five phases. Phase 0, pre project, is checked off. Phase 1, gas car teardown, is marked next">
+      <figcaption class="glass" data-glass="14">Where we're at</figcaption>
+    </figure>
+  </article>
+</section>
+
+<section class="band" id="mistakes">
+  <div class="band__in">
+    <header class="sec__h reveal">
+      <span class="mono num">03</span>
+      <h2>What we got wrong</h2>
+    </header>
+    <p class="band__big reveal">Our first notes had mistakes in them. We left the record in.</p>
+    <div class="errs">
+      <article class="err reveal">
+        <p class="mono">We wrote</p>
+        <p class="err__x">Brushed motors work with magnets touching the shaft.</p>
+        <p class="mono">What's true</p>
+        <p class="err__o">The magnets are fixed to the can. The brushes are what touch the spinning part.</p>
+      </article>
+      <article class="err reveal">
+        <p class="mono">We wrote</p>
+        <p class="err__x">Brushed has 3 wires, brushless has 2.</p>
+        <p class="mono">What's true</p>
+        <p class="err__o">Other way around. Brushed has 2, brushless has 3.</p>
+      </article>
+    </div>
+    <p class="band__s reveal">Both are fixed in the notebook, with the correction written right next to them. If something in there is wrong, it's because we were wrong at the time, and we fix it once we figure it out.</p>
+  </div>
+</section>
+
+<section class="sec" id="how">
+  <header class="sec__h reveal">
+    <span class="mono num">04</span>
+    <h2>How we work</h2>
+  </header>
+  <ol class="rules">
+    <li class="reveal"><span class="mono">A</span><h3>Everyone works on everything</h3><p>No splitting the car into an electrical half and a mechanical half.</p></li>
+    <li class="reveal"><span class="mono">B</span><h3>Notes after every meeting</h3><p>Written while we still remember why we decided something.</p></li>
+    <li class="reveal"><span class="mono">C</span><h3>No writing ahead</h3><p>We don't document work we haven't done yet.</p></li>
+    <li class="reveal"><span class="mono">D</span><h3>Wrong gets fixed in public</h3><p>We correct it and say what changed in the commit.</p></li>
+  </ol>
+</section>
+
+<section class="sec" id="team">
+  <header class="sec__h reveal">
+    <span class="mono num">05</span>
+    <h2>The team</h2>
+  </header>
+  <ul class="team">
+    <li class="reveal">
+      <div class="tile" aria-hidden="true"><span>M</span><em class="mono">Photo coming</em></div>
+      <h3>Moaiad Eljack</h3>
+      <p>Electrical Engineering</p>
+      <a class="more" href="https://github.com/moaiad-eljack">github.com/moaiad-eljack</a>
+    </li>
+    <li class="reveal">
+      <div class="tile tile--ink" aria-hidden="true"><span>M</span><em class="mono">Photo coming</em></div>
+      <h3>Miguel</h3>
+      <p>Mechanical Engineering</p>
+    </li>
+    <li class="reveal">
+      <div class="tile" aria-hidden="true"><span>A</span><em class="mono">Photo coming</em></div>
+      <h3>Azlyn</h3>
+      <p>Mechanical Engineering</p>
+    </li>
+    <li class="reveal">
+      <div class="tile tile--ink" aria-hidden="true"><span>L</span><em class="mono">Photo coming</em></div>
+      <h3>Lily</h3>
+      <p>Electrical Engineering</p>
+    </li>
+  </ul>
+  <p class="note mono reveal">Real photos of us and the car go up once the car is on the table.</p>
+</section>
+
+</main>
+
+<footer class="foot">
+  <p class="foot__big">The whole notebook is public. Go look.</p>
+  <a class="btn btn--inv" href="https://github.com/moaiad-eljack/rc-gas-to-electric">Open the notebook on GitHub</a>
+  <div class="foot__meta mono">
+    <span>Armature. Columbia Basin College, Pasco, WA.</span>
+    <span>Diagrams are drawn digitally for our notes. Part photos in the notebook are from Wikimedia Commons and credited there.</span>
+    <span>Last updated November 2026.</span>
+  </div>
+</footer>
+
+<svg class="defs" width="0" height="0" aria-hidden="true"><defs id="glass-defs"></defs></svg>
+<script src="main.js" defer></script>
+</body>
+</html>
