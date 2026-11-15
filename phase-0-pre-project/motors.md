@@ -1,8 +1,10 @@
 # Motors
 
+**What we did:** this was our first meeting. We kept it basic on purpose. We didn't want to memorize part numbers, we wanted to know why a motor spins at all and what actually changes between the two types.
+
 The battery sends power to the motor, and the motor spins the gears that drive the wheels. Pretty simple at the top level. The interesting part is how the motor flips its magnetic field to keep spinning, and that's where brushed and brushless split.
 
-![Brushed vs brushless sketch](images/brushed-vs-brushless.png)
+![Brushed vs brushless sketch](images/brushed-vs-brushless.jpg)
 
 ## Brushed vs brushless
 
@@ -39,5 +41,7 @@ The battery sends power to the motor, and the motor spins the gears that drive t
 ## Things we got wrong at first
 
 Our first notes said brushed motors work with "magnets touching the shaft." That's not it. The magnets are fixed to the can, and the brushes are what touch the spinning part. Fixed it here.
+
+An earlier version of these notes also had the wire counts flipped. We wrote 3 wires for brushed and 2 for brushless. It's the other way around: brushed has 2, brushless has 3.
 
 Next up: [ESC](esc.md)

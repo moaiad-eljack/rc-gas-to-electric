@@ -4,11 +4,21 @@
 
 Before we touch the car, we wanted to understand the electric side for real. If we're pulling a nitro engine out and putting a motor in, we should know what that motor, the ESC and the battery are actually doing, and how they talk to each other.
 
-Meeting 1 was motors. Meeting 2 was ESC basics. After that we went through the wiring and the batteries.
+## How it went
+
+**Meeting 1: motors.** We started with the motor because it's the part that replaces the engine. We kept it basic on purpose: what makes it spin, and what the real difference is between brushed and brushless. Brushless is what we're going with.
+
+**Meeting 2: the ESC.** Once the motor made sense, the next question was what tells it how fast to go. That's the ESC. We went over what it does and why it has to match the motor.
+
+**Wiring.** After the ESC we looked up how everything actually plugs together. We saved a few diagrams we found online, then sketched it out ourselves so we'd understand it and not just copy it.
+
+**Batteries.** Last was the LiPo. Mostly the numbers on the label and the rules that keep it from getting damaged or catching fire.
+
+**Writing it down.** Then we set up this repo and a shared doc, went back through our notes, and fixed the parts we had wrong. Those fixes are at the bottom of [motors.md](motors.md).
 
 ## The big picture
 
-![How power moves through an electric RC car](images/power-flow.png)
+![How power moves through an electric RC car](images/power-flow.jpg)
 
 The battery stores the energy, the ESC decides how much of it reaches the motor, and the motor spins the gears that drive the wheels. The receiver takes the signal from our transmitter and tells the ESC what to do. That's the whole electric drivetrain.
 

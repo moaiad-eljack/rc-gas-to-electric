@@ -1,8 +1,10 @@
 # LiPo batteries
 
+**What we did:** we went through how to read a LiPo label and what voltages are safe. This is the one part of the car that can actually hurt somebody, so we turned it into a cheat sheet we can look at before charging.
+
 LiPo (lithium polymer) is what most electric RC cars run. Lots of power for the weight, but they need to be treated right or they swell up, die or catch fire.
 
-![LiPo cheat sheet](images/lipo-cheat-sheet.png)
+![LiPo cheat sheet](images/lipo-cheat-sheet.jpg)
 
 ## Reading the label
 

@@ -1,18 +1,22 @@
 # RC Gas to Electric
 
+**Team Armature** | Columbia Basin College, Pasco, WA | [Portfolio page](https://moaiad-eljack.github.io/rc-gas-to-electric/)
+
 We're taking a nitro (gas) RC car and converting it to run electric. The engine comes out, a brushless motor, ESC and LiPo battery go in.
 
 We're four first year engineering students at Columbia Basin College in Pasco, WA, two electrical and two mechanical. This repo is our engineering notebook for the project. We write it as we learn, so if something in here is wrong, it's because we were wrong at the time, and we'll fix it once we figure it out.
 
-![Where we're at](images/roadmap.png)
+![Where we're at](images/roadmap.jpg)
 
 ## The team
+
+We go by **Armature**. The armature is the part of a motor where electric current turns into motion. Two of us study electrical, two study mechanical, so the name kind of picked itself.
 
 | Name | Major | GitHub |
 |---|---|---|
 | Moaiad Eljack | Electrical Engineering | [@moaiad-eljack](https://github.com/moaiad-eljack) |
 | Miguel | Mechanical Engineering | coming soon |
-| Ayzlyn | Mechanical Engineering | coming soon |
+| Azlyn | Mechanical Engineering | coming soon |
 | Lily | Electrical Engineering | coming soon |
 
 All four of us work on every part of this together. Nobody owns one piece of the car, so the EE and ME sides end up learning from each other the whole way.
@@ -39,6 +43,7 @@ phase-0-pre-project/   theory notes before we touch the car
   wiring.md
   images/              our sketches
 images/                repo level images (roadmap)
+portfolio/             the team portfolio page (it's what the link at the top opens)
 photos/                real photos of the team and the car
 photo-credits.md       where the part photos come from
 ```
@@ -56,4 +61,4 @@ LiPo batteries can catch fire if they're overcharged, over drained or damaged. B
 
 ## Credits
 
-Built by Moaiad Eljack, Miguel, Ayzlyn and Lily at Columbia Basin College, Pasco, WA. Part photos are from Wikimedia Commons, full list in [photo-credits.md](photo-credits.md).
+Built by Moaiad Eljack, Miguel, Azlyn and Lily at Columbia Basin College, Pasco, WA. Part photos are from Wikimedia Commons, full list in [photo-credits.md](photo-credits.md).

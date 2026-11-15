@@ -1,5 +1,7 @@
 # ESC (Electronic Speed Controller)
 
+**What we did:** second meeting. We already knew what the motor does, so this one was about the box that controls it. We stuck to the basics and wrote down the things that would actually burn us later if we got them wrong.
+
 The ESC sits between the battery and the motor. Think of it as the throttle and the brakes in one box. It reads the signal from the receiver and decides how much battery power actually reaches the motor.
 
 ## What one looks like
@@ -19,6 +21,6 @@ The ESC sits between the battery and the motor. Think of it as the throttle and 
 
 ## How it fits
 
-![How power moves through an electric RC car](images/power-flow.png)
+![How power moves through an electric RC car](images/power-flow.jpg)
 
 Next up: [LiPo batteries](lipo-batteries.md)

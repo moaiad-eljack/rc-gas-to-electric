@@ -1,6 +1,6 @@
 # Photo credits
 
-The sketches are made for these notes. The real part photos are from Wikimedia Commons and used under their licenses. Huge thanks to the people who shared them.
+The chalk style diagrams are made for these notes (drawn digitally, not photos of a real board). The real part photos are from Wikimedia Commons and used under their licenses. Huge thanks to the people who shared them.
 
 | Photo | Used in | Author | License |
 |---|---|---|---|

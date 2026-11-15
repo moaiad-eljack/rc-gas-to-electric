@@ -1,8 +1,10 @@
 # Wiring
 
+**What we did:** after the ESC meeting we looked up how the parts connect. We saved a few diagrams we found online, then sketched our own version so we weren't just copying one.
+
 How the battery, ESC, motor and receiver all connect. The ESC is the power hub: the battery feeds it, and it feeds the motor and the receiver.
 
-![Wiring sketch](images/wiring.png)
+![Wiring sketch](images/wiring.jpg)
 
 ## Connections
 
