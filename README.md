@@ -1,6 +1,6 @@
 # RC Gas to Electric
 
-**Team Armature** | Columbia Basin College, Pasco, WA | [Portfolio page](https://moaiad-eljack.github.io/rc-gas-to-electric/)
+**Team MMAL** | Columbia Basin College, Pasco, WA | [Team portfolio](https://moaiad-eljack.github.io/mmal-portfolio/)
 
 We're taking a nitro (gas) RC car and converting it to run electric. The engine comes out, a brushless motor, ESC and LiPo battery go in.
 
@@ -10,7 +10,7 @@ We're four first year engineering students at Columbia Basin College in Pasco, W
 
 ## The team
 
-We go by **Armature**. The armature is the part of a motor where electric current turns into motion. Two of us study electrical, two study mechanical, so the name kind of picked itself.
+We go by **MMAL**, one letter from each of our first names.
 
 | Name | Major | GitHub |
 |---|---|---|
@@ -43,7 +43,6 @@ phase-0-pre-project/   theory notes before we touch the car
   wiring.md
   images/              our sketches
 images/                repo level images (roadmap)
-portfolio/             the team portfolio page (it's what the link at the top opens)
 photos/                real photos of the team and the car
 photo-credits.md       where the part photos come from
 ```
